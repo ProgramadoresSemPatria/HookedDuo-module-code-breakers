@@ -3,11 +3,9 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>Hooked Duo</h1>
-      </div>
-    </>
+    <div className='bg-red-500'>
+      <h1>Hooked duo</h1>
+    </div>
   )
 }
 
