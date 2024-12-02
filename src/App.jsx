@@ -5,7 +5,7 @@ import TreemapPage from './pages/TreemapPage.jsx'
 function App() {
 
   return (
-    <div className='bg-red-500'>
+    <div className='bg-[#151435] overflow-hidden'>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<TreemapPage/>}/>
