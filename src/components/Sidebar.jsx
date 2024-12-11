@@ -7,7 +7,7 @@ const Sidebar = ({ totalProgress }) => {
 
   return (
     <div
-      className={`fixed right-0 top-0 w-64 h-full bg-gradient-to-b from-[#26236b] to-[#1b194a] shadow-2xl text-white rounded-xl flex flex-col items-center transition-all duration-300`}
+      className={`fixed right-0 top-0 w-64 h-full bg-gradient-to-b bg-[#231f5f] shadow-2xl text-white rounded-xl flex flex-col items-center transition-all duration-300`}
     >
       <>
         <div className="flex flex-col items-center mt-8 font-roboto">
@@ -20,7 +20,7 @@ const Sidebar = ({ totalProgress }) => {
         </div>
 
         <div className="w-11/12 mt-8 font-roboto font-semibold">
-          <p className="text-lg mb-2 text-gray-300 flex justify-center">
+          <p className="text-lg mb-2 text-white flex justify-center">
             Progress
           </p>
           <p className="text-sm mb-2 text-gray-300 flex justify-center">
