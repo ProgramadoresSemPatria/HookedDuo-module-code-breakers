@@ -23,7 +23,7 @@ const DynamicModal = ({
         onClick={() => onClose()}
       ></div>
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 bg-[#26236b] shadow-lg transform text-white transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full w-3/4 bg-[#231f5f] shadow-lg transform text-white transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
