@@ -1,18 +1,18 @@
-import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import TreemapPage from './pages/TreemapPage.jsx'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import TreemapPage from "./pages/TreemapPage.jsx";
+
 
 function App() {
-
   return (
-    <div className='bg-[#151435] overflow-hidden'>
+    <div className="bg-[#151435] overflow-hidden">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<TreemapPage/>}/>
+          <Route path="/" element={<TreemapPage />} />
         </Routes>
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
