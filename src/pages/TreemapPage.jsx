@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// Components
+import Sidebar from '../components/Sidebar'
+
 function TreemapPage() {
   const [scale, setScale] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -147,9 +150,8 @@ function TreemapPage() {
           </div>
         </div>
       </div>
-      <div className="fixed right-0 top-0 w-64 h-full bg-[#26236b] shadow-lg pointer-events-none text-white rounded-xl">
-        <p className="p-4">Coding</p>
-        <p className="p-4">progress bar aq man</p>
+      <div>
+        <Sidebar />
       </div>
       
     </>
